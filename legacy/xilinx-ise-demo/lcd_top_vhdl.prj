@@ -1,0 +1,5 @@
+vhdl work "E:\test-all-AVA-LCD\dcm50m.vhd"
+vhdl work "E:\test-all-AVA-LCD\char_ram.vhd"
+vhdl work "E:\test-all-AVA-LCD\SevenSegTest.vhd"
+vhdl work "E:\test-all-AVA-LCD\lcd_rtl\lcd.vhd"
+vhdl work "E:\test-all-AVA-LCD\lcd_top.vhf"

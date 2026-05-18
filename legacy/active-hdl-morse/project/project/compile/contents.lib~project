@@ -1,0 +1,6 @@
+66
+~E 1 "../src/main.vhd" 5 morse
+~A 1 "../src/main.vhd" 23 Behavioral
+~E 1 "../src/TestBench/morse_TB.vhd" 9 morse_tb
+~A 1 "../src/TestBench/morse_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/morse_TB.vhd" 156 testbench_for_morse

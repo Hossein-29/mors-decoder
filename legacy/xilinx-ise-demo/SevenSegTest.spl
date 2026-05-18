@@ -1,0 +1,8 @@
+[Inputs]
+GCLK
+Reset
+[Outputs]
+=LEDS[7:0]=
+=SEG_SEL[4:0]=
+=SEG_DATA[7:0]=
+[BiDir]

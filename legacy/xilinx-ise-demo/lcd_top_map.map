@@ -1,0 +1,138 @@
+Release 11.1 Map L.33 (nt)
+Xilinx Map Application Log File for Design 'lcd_top'
+
+Design Information
+------------------
+Command Line   : map -ise SevenSegTest.ise -intstyle ise -p xc3s400-pq208-4 -cm
+area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+Target Device  : xc3s400
+Target Package : pq208
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.51 $
+Mapped Date    : Fri Dec 02 23:35:22 2011
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s400' is a WebPack part.
+WARNING:Security:42 - Your license support version '2010.04' for ISE expires in
+-582 days.
+----------------------------------------------------------------------
+No such feature exists.
+Feature:       WebPack
+License path: 
+C:/.Xilinx\Xilinx_ISE11.lic;C:\Xilinx\11.1\ISE/data\*.lic;C:\Xilinx\11.1\EDK/dat
+a/core_licenses\apu_fpu_v2_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\apu_
+fpu_virtex5_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_atmc_v1_00_b
+_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_atmc_v2_00_a_flexlm.lic;C:
+\Xilinx\11.1\EDK/data/core_licenses\opb_can_v1_flexlm.lic;C:\Xilinx\11.1\EDK/dat
+a/core_licenses\opb_ethernetlite_v1_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core
+_licenses\opb_ethernetlite_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\o
+pb_ethernet_v1_00_j_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_etherne
+t_v1_00_k_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernet_v1_00_l_
+flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernet_v1_00_m_flexlm.lic
+;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernet_v1_01_a_flexlm.lic;C:\Xilinx
+\11.1\EDK/data/core_licenses\opb_ethernet_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/
+core_licenses\opb_hdlc_v1_00_b_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\
+opb_hdlc_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_hdlc_v2_00_a_fl
+exlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_hdlc_v2_flexlm.lic;C:\Xilinx\
+11.1\EDK/data/core_licenses\opb_iic_v1_01_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/c
+ore_licenses\opb_iic_v1_01_b_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\op
+b_iic_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_pci_v1_00_a_flexlm
+.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_pci_v1_00_b_flexlm.lic;C:\Xilinx\
+11.1\EDK/data/core_licenses\opb_pci_v1_00_c_flexlm.lic;C:\Xilinx\11.1\EDK/data/c
+ore_licenses\opb_pci_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_uar
+t16550_v1_00_c_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_uart16550_v1
+_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_usb2_device_v1_flexlm.lic;
+C:\Xilinx\11.1\EDK/data/core_licenses\plbv46_pcie_v3_flexlm.lic;C:\Xilinx\11.1\E
+DK/data/core_licenses\plbv46_pci_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_lice
+nses\plb_atmc_v1_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_ether
+net_v1_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_ethernet_v1_fle
+xlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_gemac_v1_00_a_flexlm.lic;C:\Xi
+linx\11.1\EDK/data/core_licenses\plb_gemac_v1_00_b_flexlm.lic;C:\Xilinx\11.1\EDK
+/data/core_licenses\plb_gemac_v1_01_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_li
+censes\plb_gemac_v2_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_pci_v1_
+flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_rapidio_lvds_v1_00_a_flexlm
+.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_rapidio_lvds_v1_flexlm.lic;C:\Xil
+inx\11.1\EDK/data/core_licenses\plb_temac_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/
+core_licenses\plb_uart16550_v1_00_b_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_lice
+nses\plb_uart16550_v1_00_c_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\soft
+_temac_wrap_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\soft_temac_wrap_
+v2_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\xps_can_v1_flexlm.lic;[...]
+FLEXnet Licensing error:-5,357.  System Error: 2 ""
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.acresso.com".
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:266 - The function generator SEG_TEST/CounterSeg4_mux0001<0>11
+   failed to merge with F5 multiplexer SEG_TEST/SEG_DATA_mux0000<4>911_f5. 
+   There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net LCD_TEST/tc_clkcnt is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   VGA_GAME/ping/right_edge/contact_pt_cmp_eq0000 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   VGA_GAME/ping/left_edge/contact_pt_cmp_eq0000 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    4
+Logic Utilization:
+  Total Number Slice Registers:         337 out of   7,168    4%
+    Number used as Flip Flops:          333
+    Number used as Latches:               4
+  Number of 4 input LUTs:               866 out of   7,168   12%
+Logic Distribution:
+  Number of occupied Slices:            559 out of   3,584   15%
+    Number of Slices containing only related logic:     559 out of     559 100%
+    Number of Slices containing unrelated logic:          0 out of     559   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,020 out of   7,168   14%
+    Number used as logic:               866
+    Number used as a route-thru:        154
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 49 out of     141   34%
+  Number of RAMB16s:                      1 out of      16    6%
+  Number of BUFGMUXs:                     5 out of       8   62%
+  Number of DCMs:                         1 out of       4   25%
+
+Average Fanout of Non-Clock Nets:                3.54
+
+Peak Memory Usage:  187 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "lcd_top_map.mrp" for details.

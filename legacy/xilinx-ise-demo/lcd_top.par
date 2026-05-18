@@ -1,0 +1,279 @@
+Release 11.1 par L.33 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+DSPCORE-IR::  Fri Dec 02 23:35:27 2011
+
+par -ise SevenSegTest.ise -w -intstyle ise -ol high -t 1 lcd_top_map.ncd
+lcd_top.ncd lcd_top.pcf 
+
+
+Constraints file: lcd_top.pcf.
+Loading device for application Rf_Device from file '3s400.nph' in environment C:\Xilinx\11.1\ISE.
+   "lcd_top" is an NCD, version 3.2, device xc3s400, package pq208, speed -4
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s400' is a WebPack part.
+WARNING:Security:42 - Your license support version '2010.04' for ISE expires in -582 days.
+
+----------------------------------------------------------------------
+No such feature exists.
+Feature:       WebPack
+License path: 
+C:/.Xilinx\Xilinx_ISE11.lic;C:\Xilinx\11.1\ISE/data\*.lic;C:\Xilinx\11.1\EDK/data/core_licenses\apu_fpu_v2_flexlm.lic;C:
+\Xilinx\11.1\EDK/data/core_licenses\apu_fpu_virtex5_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_atmc_v1_00_b
+_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_atmc_v2_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_
+can_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernetlite_v1_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core
+_licenses\opb_ethernetlite_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernet_v1_00_j_flexlm.lic;C:\Xilinx
+\11.1\EDK/data/core_licenses\opb_ethernet_v1_00_k_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernet_v1_00_l_
+flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernet_v1_00_m_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\o
+pb_ethernet_v1_01_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_ethernet_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/
+core_licenses\opb_hdlc_v1_00_b_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_hdlc_v1_flexlm.lic;C:\Xilinx\11.1\ED
+K/data/core_licenses\opb_hdlc_v2_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_hdlc_v2_flexlm.lic;C:\Xilinx\
+11.1\EDK/data/core_licenses\opb_iic_v1_01_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_iic_v1_01_b_flexlm.lic;
+C:\Xilinx\11.1\EDK/data/core_licenses\opb_iic_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_pci_v1_00_a_flexlm
+.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_pci_v1_00_b_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_pci_v1_0
+0_c_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_pci_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_uar
+t16550_v1_00_c_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\opb_uart16550_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core
+_licenses\opb_usb2_device_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plbv46_pcie_v3_flexlm.lic;C:\Xilinx\11.1\E
+DK/data/core_licenses\plbv46_pci_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_atmc_v1_00_a_flexlm.lic;C:\Xili
+nx\11.1\EDK/data/core_licenses\plb_ethernet_v1_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_ethernet_v1_fle
+xlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_gemac_v1_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_gem
+ac_v1_00_b_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_gemac_v1_01_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_li
+censes\plb_gemac_v2_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_pci_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_
+licenses\plb_rapidio_lvds_v1_00_a_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_rapidio_lvds_v1_flexlm.lic;C:\Xil
+inx\11.1\EDK/data/core_licenses\plb_temac_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_uart16550_v1_00_b_flex
+lm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\plb_uart16550_v1_00_c_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\soft
+_temac_wrap_v1_flexlm.lic;C:\Xilinx\11.1\EDK/data/core_licenses\soft_temac_wrap_v2_flexlm.lic;C:\Xilinx\11.1\EDK/data/co
+re_licenses\xps_can_v1_flexlm.lic;[...]
+FLEXnet Licensing error:-5,357.  System Error: 2 ""
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.acresso.com".
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.39 2009-03-03".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                        5 out of 8      62%
+   Number of DCMs                            1 out of 4      25%
+   Number of External IOBs                  49 out of 141    34%
+      Number of LOCed IOBs                  49 out of 49    100%
+
+   Number of RAMB16s                         1 out of 16      6%
+   Number of Slices                        559 out of 3584   15%
+      Number of SLICEMs                      0 out of 1792    0%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:e6061d93) REAL time: 2 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:e6061d93) REAL time: 2 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:e6061d93) REAL time: 2 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+..........
+WARNING:Place:1019 - A clock IOB / clock component pair have been found that are not placed at an optimal clock IOB /
+   clock site pair. The clock component <XLXI_19> is placed at site <BUFGMUX4>. The IO component <GCLK> is placed at
+   site <P184>.  This will not allow the use of the fast path between the IO and the Clock buffer. This is normally an
+   ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <GCLK.PAD> allowing your design to continue.
+   This constraint disables all clock placer rules related to the specified COMP.PIN. The use of this override is highly
+   discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in
+   the design.
+Phase 4.2  Initial Clock and IO Placement (Checksum:dfcbe874) REAL time: 3 secs 
+
+Phase 5.8  Global Placement
+........
+..................
+...............
+.................................
+......................
+.......................................
+Phase 5.8  Global Placement (Checksum:a5bbba72) REAL time: 5 secs 
+
+Phase 6.5  Local Placement Optimization
+Phase 6.5  Local Placement Optimization (Checksum:a5bbba72) REAL time: 5 secs 
+
+Phase 7.18  Placement Optimization
+Phase 7.18  Placement Optimization (Checksum:7ed40b20) REAL time: 6 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:7ed40b20) REAL time: 6 secs 
+
+Total REAL time to Placer completion: 6 secs 
+Total CPU  time to Placer completion: 6 secs 
+Writing design to file lcd_top.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 3904 unrouted;      REAL time: 7 secs 
+
+Phase  2  : 3638 unrouted;      REAL time: 7 secs 
+
+Phase  3  : 1637 unrouted;      REAL time: 7 secs 
+
+Phase  4  : 1692 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+
+Updating file: lcd_top.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+WARNING:Route:455 - CLK Net:VGA_GAME/ping/left_edge/contact_pt_cmp_eq0000 may have excessive skew because 
+      2 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:SEG_TEST/CLK10MS may have excessive skew because 
+      10 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:DIVIDER/count<3> may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:LCD_TEST/tc_clkcnt may have excessive skew because 
+      1 CLK pins and 16 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:LCD_TEST/clkdiv may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 14 secs 
+Total CPU time to Router completion: 13 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|          GCLK_IBUFG |      BUFGMUX7| No   |   51 |  0.020     |  1.034      |
++---------------------+--------------+------+------+------------+-------------+
+|      VGA_GAME/clock |      BUFGMUX1| No   |  142 |  0.020     |  1.034      |
++---------------------+--------------+------+------+------------+-------------+
+|    LCD_TEST/clk_int |      BUFGMUX2| No   |   16 |  0.001     |  1.034      |
++---------------------+--------------+------+------+------------+-------------+
+|      SEG_TEST/clk_2 |         Local|      |    8 |  0.016     |  2.725      |
++---------------------+--------------+------+------+------------+-------------+
+|    SEG_TEST/CLK10MS |         Local|      |   14 |  1.611     |  3.187      |
++---------------------+--------------+------+------+------------+-------------+
+|    DIVIDER/count<3> |         Local|      |   10 |  0.081     |  2.119      |
++---------------------+--------------+------+------+------------+-------------+
+|  LCD_TEST/tc_clkcnt |         Local|      |   17 |  0.000     |  1.823      |
++---------------------+--------------+------+------+------------+-------------+
+|     LCD_TEST/clkdiv |         Local|      |    3 |  0.068     |  2.867      |
++---------------------+--------------+------+------+------------+-------------+
+|VGA_GAME/ping/right_ |              |      |      |            |             |
+|edge/contact_pt_cmp_ |              |      |      |            |             |
+|              eq0000 |         Local|      |    2 |  0.000     |  0.515      |
++---------------------+--------------+------+------+------------+-------------+
+|VGA_GAME/ping/left_e |              |      |      |            |             |
+|dge/contact_pt_cmp_e |              |      |      |            |             |
+|               q0000 |         Local|      |    2 |  0.000     |  1.050      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net GCL | SETUP       |         N/A|     6.836ns|     N/A|           0
+  K_IBUFG                                   | HOLD        |     0.910ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net VGA | SETUP       |         N/A|     8.309ns|     N/A|           0
+  _GAME/clock                               | HOLD        |     0.953ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net SEG | SETUP       |         N/A|     3.624ns|     N/A|           0
+  _TEST/clk_2                               | HOLD        |     0.561ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LCD | SETUP       |         N/A|     4.511ns|     N/A|           0
+  _TEST/clk_int                             | HOLD        |     0.889ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net SEG | SETUP       |         N/A|     7.109ns|     N/A|           0
+  _TEST/CLK10MS                             | HOLD        |     0.145ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net DIV | SETUP       |         N/A|     5.432ns|     N/A|           0
+  IDER/count<3>                             | HOLD        |     1.725ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LCD | SETUP       |         N/A|     1.712ns|     N/A|           0
+  _TEST/tc_clkcnt                           | HOLD        |     0.924ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LCD | SETUP       |         N/A|     1.671ns|     N/A|           0
+  _TEST/clkdiv                              | HOLD        |     0.878ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 14 secs 
+Total CPU time to PAR completion: 14 secs 
+
+Peak Memory Usage:  188 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 6
+Number of info messages: 1
+
+Writing design to file lcd_top.ncd
+
+
+
+PAR done!

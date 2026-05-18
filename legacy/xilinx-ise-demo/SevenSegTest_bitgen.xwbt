@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Electronic Engin\project2010\RandD\FPGA VHDL\FPGA Board\SevenSegTest\SevenSegTest.ncd
+OUTFILE=D:\Electronic Engin\project2010\RandD\FPGA VHDL\FPGA Board\SevenSegTest\SevenSegTest.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=D:\Electronic Engin\project2010\RandD\FPGA VHDL\FPGA Board\SevenSegTest
+LICENSE=ISE
+USER_INFO=_

@@ -1,0 +1,36 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=project
+[Library]
+project=.\project\project.lib
+[$LibMap$]
+project=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/main.vhd=-1
+/..\..\..\..\..\..\CAlab\project\local\project\project\src\untitled.asdb=-1
+/..\..\..\..\..\..\CAlab\project\local\project\project\src\untitled.awc=-1
+TestBench/morse_TB.vhd=-1
+TestBench/morse_TB_runtest.do=-1
+[Files.Data]
+.\src\main.vhd=VHDL Source Code
+.\..\..\..\..\..\CAlab\project\local\project\project\src\untitled.asdb=Accelerated Waveform File
+.\..\..\..\..\..\CAlab\project\local\project\project\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\morse_TB.vhd=VHDL Test Bench
+.\src\TestBench\morse_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=morse_tb|testbench_for_morse|1
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,30 @@
+V3 24
+FL E:/test-all-AVA-LCD/char_ram.vhd 2011/07/25.13:28:40 L.33
+EN work/char_ram 1322856296 FL E:/test-all-AVA-LCD/char_ram.vhd \
+      PB ieee/std_logic_1164 1236108447 PB ieee/std_logic_arith 1236108448
+AR work/char_ram/fun 1322856297 \
+      FL E:/test-all-AVA-LCD/char_ram.vhd EN work/char_ram 1322856296
+FL E:/test-all-AVA-LCD/dcm50m.vhd 2011/12/02.23:05:15 L.33
+EN work/dcm50m 1322856304 FL E:/test-all-AVA-LCD/dcm50m.vhd PB ieee/std_logic_1164 1236108447 \
+      PB ieee/NUMERIC_STD 1236108448 LB UNISIM PH unisim/VCOMPONENTS 1236108447
+AR work/dcm50m/BEHAVIORAL 1322856305 \
+      FL E:/test-all-AVA-LCD/dcm50m.vhd EN work/dcm50m 1322856304 CP BUFG CP DCM
+FL E:/test-all-AVA-LCD/lcd_rtl/lcd.vhd 2011/07/13.00:33:06 L.33
+EN work/lcd 1322856298 FL E:/test-all-AVA-LCD/lcd_rtl/lcd.vhd \
+      PB ieee/std_logic_1164 1236108447 PB ieee/std_logic_arith 1236108448 \
+      PB ieee/STD_LOGIC_UNSIGNED 1236108449
+AR work/lcd/Behavioral 1322856299 \
+      FL E:/test-all-AVA-LCD/lcd_rtl/lcd.vhd EN work/lcd 1322856298 CP char_ram
+FL E:/test-all-AVA-LCD/lcd_top.vhf 2011/12/02.23:34:53 L.33
+EN work/lcd_top 1322856302 FL E:/test-all-AVA-LCD/lcd_top.vhf \
+      PB ieee/std_logic_1164 1236108447 PB ieee/NUMERIC_STD 1236108448 LB UNISIM \
+      PH unisim/VCOMPONENTS 1236108447
+AR work/lcd_top/BEHAVIORAL 1322856303 \
+      FL E:/test-all-AVA-LCD/lcd_top.vhf EN work/lcd_top 1322856302 CP div16 CP lcd \
+      CP SevenSegTest CP vga_pong_top CP BUFG CP INV
+FL E:/test-all-AVA-LCD/SevenSegTest.vhd 2011/12/02.23:27:44 L.33
+EN work/SevenSegTest 1322856300 FL E:/test-all-AVA-LCD/SevenSegTest.vhd \
+      PB ieee/std_logic_1164 1236108447 PB ieee/std_logic_arith 1236108448 \
+      PB ieee/STD_LOGIC_UNSIGNED 1236108449
+AR work/SevenSegTest/Behavioral 1322856301 \
+      FL E:/test-all-AVA-LCD/SevenSegTest.vhd EN work/SevenSegTest 1322856300

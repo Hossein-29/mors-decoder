@@ -1,0 +1,17 @@
+80
+~E 1 "../src/main.vhd" 149 lcd_controller
+~A 1 "../src/main.vhd" 359 Behavioral
+~E 1 "../src/main.vhd" 5 morse
+~A 1 "../src/main.vhd" 23 Behavioral
+~E 1 "../src/main.vhd" 188 morse_decoder
+~A 1 "../src/main.vhd" 37 Behavioral
+~E 1 "../src/TestBench/morse_decoder_TB.vhd" 7 morse_decoder_tb
+~A 1 "../src/TestBench/morse_decoder_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/main.vhd" 6 morse_lcd_system
+~A 1 "../src/main.vhd" 223 Behavioral
+~E 1 "../src/TestBench/morse_TB.vhd" 9 morse_tb
+~A 1 "../src/TestBench/morse_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/main.vhd" 26 morse_to_lcd_top
+~A 1 "../src/main.vhd" 405 Behavioral
+~C 1 "../src/TestBench/morse_TB.vhd" 156 testbench_for_morse
+~C 1 "../src/TestBench/morse_decoder_TB.vhd" 169 testbench_for_morse_decoder

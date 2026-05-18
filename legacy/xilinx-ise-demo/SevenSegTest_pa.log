@@ -1,0 +1,51 @@
+
+****** PlanAhead v11.1
+  **** Build 44534 by hdbuild on Thu Mar  5 11:02:58 PST 2009
+    ** Copyright 1986-1999, 2001-2009 Xilinx, Inc. All Rights Reserved.
+
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -439 day(s)
+INFO: [HD-ArchReader 10] Loading parts and site information from C:\Xilinx\11.1\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\11.1\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\11.1\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-Application 1] Opened log file E:\3s400\AZ_Project\test-all-AVA\planAhead.log
+INFO: [HD-Application 2] Opened journal file E:\3s400\AZ_Project\test-all-AVA\planAhead.jou
+INFO: [HD-RTPRIM 0] Parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\verilog.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\verilog.xml'
+INFO: [HD-RTPRIM 0] Parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\vhdl.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\vhdl.xml'
+INFO: [HD-RTPRIM 0] Parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\ucf.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\ucf.xml'
+ngc2edif part name xc5vlx30ff676-2
+Release 11.1 - ngc2edif L.33 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Release 11.1 - ngc2edif L.33 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Reading design lcd_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to lcd_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus XLXI_15/Madd_counter_addsub0000_cy<4 :
+   2> on block lcd_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_16/Mcompar_CLK10MS_cmp_lt0000_lut<6
+   : 1> on block lcd_top is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_16/Mcompar_CounterSeg1_cmp_lt0000_lut<11 : 1> on block lcd_top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_16/Mcompar_clk_2_cmp_lt0000_lut<6 :
+   1> on block lcd_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_16/Mcompar_clk_2_cmp_lt0001_lut<7 :
+   1> on block lcd_top is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file lcd_top.edif ...
+ngc2edif: Total memory usage is 53180 kilobytes
+
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

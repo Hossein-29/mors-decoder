@@ -1,0 +1,35 @@
+xst -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -ifn "E:/test-all-AVA-LCD/lcd_top.xst" -ofn "E:/test-all-AVA-LCD/lcd_top.syr" 
+ngdbuild -ise "SevenSegTest.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 lcd_top.ngc lcd_top.ngd  
+map -ise "SevenSegTest.ise" -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+ngdbuild -ise "SevenSegTest.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 lcd_top.ngc lcd_top.ngd  
+map -ise "SevenSegTest.ise" -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+par -ise "SevenSegTest.ise" -w -intstyle ise -ol high -t 1 lcd_top_map.ncd lcd_top.ncd lcd_top.pcf 
+ngdbuild -ise "SevenSegTest.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 lcd_top.ngc lcd_top.ngd  
+map -ise "SevenSegTest.ise" -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+par -ise "SevenSegTest.ise" -w -intstyle ise -ol high -t 1 lcd_top_map.ncd lcd_top.ncd lcd_top.pcf 
+trce -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_top.twx lcd_top.ncd -o lcd_top.twr lcd_top.pcf -ucf vga_pong_top.ucf 
+bitgen -ise "SevenSegTest.ise" -intstyle ise -f lcd_top.ut lcd_top.ncd 
+ngdbuild -ise "SevenSegTest.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 lcd_top.ngc lcd_top.ngd  
+map -ise "SevenSegTest.ise" -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+par -ise "SevenSegTest.ise" -w -intstyle ise -ol high -t 1 lcd_top_map.ncd lcd_top.ncd lcd_top.pcf 
+trce -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_top.twx lcd_top.ncd -o lcd_top.twr lcd_top.pcf -ucf vga_pong_top.ucf 
+bitgen -ise "SevenSegTest.ise" -intstyle ise -f lcd_top.ut lcd_top.ncd 
+xst -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -ifn "E:/test-all-AVA-LCD/lcd_top.xst" -ofn "E:/test-all-AVA-LCD/lcd_top.syr" 
+ngdbuild -ise "SevenSegTest.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 lcd_top.ngc lcd_top.ngd  
+map -ise "SevenSegTest.ise" -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+par -ise "SevenSegTest.ise" -w -intstyle ise -ol high -t 1 lcd_top_map.ncd lcd_top.ncd lcd_top.pcf 
+trce -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_top.twx lcd_top.ncd -o lcd_top.twr lcd_top.pcf -ucf vga_pong_top.ucf 
+bitgen -ise "SevenSegTest.ise" -intstyle ise -f lcd_top.ut lcd_top.ncd 
+xst -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -ifn "E:/test-all-AVA-LCD/lcd_top.xst" -ofn "E:/test-all-AVA-LCD/lcd_top.syr" 
+xst -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -ifn "E:/test-all-AVA-LCD/lcd_top.xst" -ofn "E:/test-all-AVA-LCD/lcd_top.syr" 
+ngdbuild -ise "SevenSegTest.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 lcd_top.ngc lcd_top.ngd  
+map -ise "SevenSegTest.ise" -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+par -ise "SevenSegTest.ise" -w -intstyle ise -ol high -t 1 lcd_top_map.ncd lcd_top.ncd lcd_top.pcf 
+trce -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_top.twx lcd_top.ncd -o lcd_top.twr lcd_top.pcf -ucf vga_pong_top.ucf 
+bitgen -ise "SevenSegTest.ise" -intstyle ise -f lcd_top.ut lcd_top.ncd 
+xst -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -ifn "E:/test-all-AVA-LCD/lcd_top.xst" -ofn "E:/test-all-AVA-LCD/lcd_top.syr" 
+ngdbuild -ise "SevenSegTest.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 lcd_top.ngc lcd_top.ngd  
+map -ise "SevenSegTest.ise" -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o lcd_top_map.ncd lcd_top.ngd lcd_top.pcf 
+par -ise "SevenSegTest.ise" -w -intstyle ise -ol high -t 1 lcd_top_map.ncd lcd_top.ncd lcd_top.pcf 
+trce -ise "E:/test-all-AVA-LCD/SevenSegTest.ise" -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_top.twx lcd_top.ncd -o lcd_top.twr lcd_top.pcf -ucf vga_pong_top.ucf 
+bitgen -ise "SevenSegTest.ise" -intstyle ise -f lcd_top.ut lcd_top.ncd 

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <header>
+    <!-- ISE source project file created by Project Navigator.             -->
+    <!--                                                                   -->
+    <!-- This file contains project source information including a list of -->
+    <!-- project source files, project and process properties.  This file, -->
+    <!-- along with the project source files, is sufficient to open and    -->
+    <!-- implement in ISE Project Navigator.                               -->
+    <!--                                                                   -->
+    <!-- Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved. -->
+  </header>
+
+  <version xil_pn:ise_version="11.1" xil_pn:schema_version="2"/>
+
+  <files>
+    <file xil_pn:name="SevenSegTest.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation"/>
+      <association xil_pn:name="Implementation"/>
+    </file>
+    <file xil_pn:name="SevenSegTest.ucf" xil_pn:type="FILE_UCF">
+      <association xil_pn:name="Implementation"/>
+    </file>
+    <file xil_pn:name="lcd_rtl/lcd_top.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation"/>
+      <association xil_pn:name="Implementation"/>
+    </file>
+    <file xil_pn:name="lcd_rtl/DIV16.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation"/>
+      <association xil_pn:name="Implementation"/>
+      <library xil_pn:name="verilog"/>
+    </file>
+    <file xil_pn:name="lcd_rtl/lcd.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation"/>
+      <association xil_pn:name="Implementation"/>
+    </file>
+    <file xil_pn:name="char_ram.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation"/>
+      <association xil_pn:name="Implementation"/>
+    </file>
+    <file xil_pn:name="vga_pong_top.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="Implementation"/>
+      <association xil_pn:name="BehavioralSimulation"/>
+      <library xil_pn:name="verilog"/>
+    </file>
+    <file xil_pn:name="pong.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="Implementation"/>
+      <association xil_pn:name="BehavioralSimulation"/>
+      <library xil_pn:name="verilog"/>
+    </file>
+    <file xil_pn:name="gamepad.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="Implementation"/>
+      <association xil_pn:name="BehavioralSimulation"/>
+      <library xil_pn:name="verilog"/>
+    </file>
+    <file xil_pn:name="50MHZ_VGA.V" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="Implementation"/>
+      <association xil_pn:name="BehavioralSimulation"/>
+      <library xil_pn:name="verilog"/>
+    </file>
+    <file xil_pn:name="TCGROM.V" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="Implementation"/>
+      <association xil_pn:name="BehavioralSimulation"/>
+      <library xil_pn:name="verilog"/>
+    </file>
+    <file xil_pn:name="vga_pong_top.ucf" xil_pn:type="FILE_UCF">
+      <association xil_pn:name="Implementation"/>
+    </file>
+    <file xil_pn:name="E:\TestVGA900911\VGA-Game_Pong\ipcore_dir/dcm50m.xaw" xil_pn:type="FILE_XAW">
+      <association xil_pn:name="Implementation"/>
+      <association xil_pn:name="BehavioralSimulation"/>
+    </file>
+  </files>
+
+  <properties>
+    <property xil_pn:name="Constraints Entry" xil_pn:value="Constraints Editor"/>
+    <property xil_pn:name="Device" xil_pn:value="xc3s400"/>
+    <property xil_pn:name="Device Family" xil_pn:value="Spartan3"/>
+    <property xil_pn:name="Fitter Report Format" xil_pn:value="HTML"/>
+    <property xil_pn:name="Implementation Top" xil_pn:value="Module|lcd_top"/>
+    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/lcd_top"/>
+    <property xil_pn:name="Map Effort Level" xil_pn:value="High"/>
+    <property xil_pn:name="PROP_DesignName" xil_pn:value="SevenSegTest"/>
+    <property xil_pn:name="Package" xil_pn:value="pq208"/>
+    <property xil_pn:name="Place &amp; Route Effort Level (Overall)" xil_pn:value="High"/>
+    <property xil_pn:name="Preferred Language" xil_pn:value="VHDL"/>
+    <property xil_pn:name="Report Paths by Endpoint" xil_pn:value="3"/>
+    <property xil_pn:name="Report Paths by Endpoint Post Trace" xil_pn:value="3"/>
+    <property xil_pn:name="Simulator" xil_pn:value="ISim (VHDL/Verilog)"/>
+    <property xil_pn:name="Speed Grade" xil_pn:value="-4"/>
+    <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)"/>
+    <property xil_pn:name="Target UCF File Name" xil_pn:value="SevenSegTest.ucf"/>
+    <property xil_pn:name="Top-Level Source Type" xil_pn:value="HDL"/>
+    <property xil_pn:name="Verbose Property Persistence" xil_pn:value="false"/>
+    <property xil_pn:name="Working Directory" xil_pn:value="."/>
+  </properties>
+
+  <bindings/>
+
+  <libraries/>
+
+  <autoManagedFiles>
+    
+
+    
+
+    
+<!-- The following files are identified by `include statements in verilog -->
+    
+
+    
+
+    
+<!-- source files and are automatically managed by Project Navigator.     -->
+    
+
+    
+
+    
+<!--                                                                      -->
+    
+
+    
+
+    
+<!-- Do not hand-edit this section, as it will be overwritten when the    -->
+    
+
+    
+
+    
+<!-- project is analyzed based on files automatically identified as       -->
+    
+
+    
+
+    
+<!-- include files.                                                       -->
+  </autoManagedFiles>
+
+  <partitions>
+    <partition xil_pn:name="/lcd_top"/>
+  </partitions>
+
+</project>

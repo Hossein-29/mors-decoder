@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="unknown" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">SEG_TEST/CounterSeg4_mux0001&lt;0&gt;11</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">SEG_TEST/SEG_DATA_mux0000&lt;4&gt;911_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">LCD_TEST/tc_clkcnt</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">VGA_GAME/ping/right_edge/contact_pt_cmp_eq0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">VGA_GAME/ping/left_edge/contact_pt_cmp_eq0000</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="772" delta="unknown" >To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp <arg fmt="%s" index="1">VGA_GAME/inst_dcm50m/DCM_INST</arg>, consult the device Interactive Data Sheet.
+</msg>
+
+</messages>
+

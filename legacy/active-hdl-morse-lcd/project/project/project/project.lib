@@ -1,0 +1,114 @@
+timestamp=1749538771736
+
+[~A]
+ModifyID=80
+Version=74
+
+[~MFT]
+0=18|0project.mgf|171305|140178
+1=6|1project.mgf|323983|300969
+3=6|3project.mgf|83356|72981
+
+[lcd_controller]
+A/behavioral=A/Behavioral 21|../src/main.vhd|359|1*323983
+BinW64/behavioral=3*83356
+I=0*158812
+I/behavioral=I/Behavioral 0*171305
+M=11|2|vef|1749538399610|../src/main.vhd|0*158268*0x980903aeffaf18cdc37e1724e8fb9f6bdcf0ffcc|0*158729*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1749538771721|../src/main.vhd|0*166832*0x824800d2614a3c33ba3b4736dd58ae355b3af995|0*171208*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|149
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|952c2ccca0392aac992f3adc889144f6afd229ea9567e26b72c3a6c6303b7a1ddcb188e9454bd901719fdb152f3d76b8
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff458a48e8f6d3654b090ade198afe9e0ad
+
+[morse]
+A/behavioral=A/Behavioral 21|../src/main.vhd|23|1*315846
+BinW64/behavioral=3*80052
+I=0*39879
+I/behavioral=I/Behavioral 0*163790
+M=11|2|vef|1748731968728|../src/main.vhd|0*39380*0xdcd595897ee431f5bd9d28a56d6883888e1ba910|0*39805*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1749538771710|../src/main.vhd|0*110251*0x9bc3bfeeb5b105a7a6e803c32d852191a2047c0f|0*112984*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|9556e9626c606d4fb7b1ae1b7c40ecb78e7463d3a6e45ebb6bc00d75bd02a262
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff413899a77c2cca38617e74bb2679adb23
+
+[morse_decoder]
+A/behavioral=A/Behavioral 21|../src/main.vhd|37|1*281905
+BinW64/behavioral=3*71301
+I=0*118901
+I/behavioral=I/Behavioral 0*141818
+M=11|2|vef|1749507833829|../src/main.vhd|0*118479*0x021d28ebfcc19180d70bd0b82f2f8c686f222fb3|0*118819*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1749536671799|../src/main.vhd|0*131959*0x2119721a161676185f9dd58ff33be563d2737aef|0*134634*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|188
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|3cc86193c629a5478e47c2089e48cfee33600c92b87128ee10c2b8449641d15c2de251563eac48d7c7c1d19ca1cc8109
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4e9b486b082eea3b5b82c33c6c1abb24f
+
+[morse_decoder_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/morse_decoder_TB.vhd|10|1*295310
+BinW64/tb_architecture=3*76387
+I=0*137436
+I/tb_architecture=I/TB_ARCHITECTURE 0*145862
+M=11|2|vef|1749536663175|../src/TestBench/morse_decoder_TB.vhd|0*137052*0xe6bfd26f846957f26f09b5924c4a19b4346ec1a4|0*137329*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1749537554040|../src/TestBench/morse_decoder_TB.vhd|0*143188*0x887d0981a288085f96558382d740fc4ea6c729e5|0*145736*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/morse_decoder_TB.vhd|7
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|3cc86193c629a5478e47c2089e48cfee5bcde67ac9856d7557a555e0780f249733b61fe6e6c68a7fbae8d2733ed1fa4d
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beae1e29ce7efa59600fd903202e53e2483
+
+[morse_lcd_system]
+A/behavioral=A/Behavioral 21|../src/main.vhd|223|1*319769
+BinW64/behavioral=3*82081
+I=0*154963
+I/behavioral=I/Behavioral 0*166501
+M=11|2|vef|1749538399604|../src/main.vhd|0*154337*0x7c4835221f56b62cf2d1965c64d1db1cbf8dd4c9|0*154878*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1749538771715|../src/main.vhd|0*164040*0xb83cf8ee48d3365ace09ebeb0149edea5d02ed46|0*166402*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|6
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|40bfa5d5fe95ace246cc6b4254f63e21c6ca2a8baa9f1f3fc74f0700fd70d84fff260e889145102e545fa87d14e3dc2f
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ce74e64775c42b3bb021f4822d34496b
+
+[morse_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/morse_TB.vhd|10|1*229283
+BinW64/tb_architecture=3*51795
+I=0*4834
+I/tb_architecture=I/TB_ARCHITECTURE 0*109384
+M=11|2|vef|1748728848324|../src/TestBench/morse_TB.vhd|0*4491*0xabf62535a9f8211ee21b2f389830c83940175974|0*4743*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1748742717784|../src/TestBench/morse_TB.vhd|0*106925*0xe464a2a40c72ea1bd239857ee47b0dd20af567ca|0*109274*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/morse_TB.vhd|9
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|e34aa8e54bf2e54c5e2c30556d2dff3bff4b26329801fe0590e5a751b0c393b16ef76e99fd74b3e6afeb5824bd666c80
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea530aded37758a77584677cdae6ae9221
+
+[morse_to_lcd_top]
+A/behavioral=A/Behavioral 21|../src/main.vhd|405|1*287590
+BinW64/behavioral=3*74706
+I=0*114065
+I/behavioral=I/Behavioral 0*142335
+M=11|2|vef|1749507833818|../src/main.vhd|0*113570*0x79dde28cb2b5cec4b941161091f2d5799920a84d|0*113980*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1749536671811|../src/main.vhd|0*127830*0xdc8e117d144b4230f9fe26f692794dfd526266ca|0*131524*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|26
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|69a9b9df326e3093f894a1c58f5dff253a0a6b0cbdf2aac8b17f058a5494f00fc067a526e542b2b6445d936be3ba9e5c
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ad9286d034fa22f50d70e65e9f9546b1
+
+[testbench_for_morse]
+Configures=morse_tb.TB_ARCHITECTURE
+E=1*232524
+I=0*110091
+M=2|2|vef|1748742717788|../src/TestBench/morse_TB.vhd|0*109708*0x8ba6c6c244e7cf891eb5e3e72b6e9b55b0c49391|0*109978*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/morse_TB.vhd|156
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e51151dc56e92a82beac0957fa8991667d5201ce96d9fcf35534d0ffaa734b5d6c
+
+[testbench_for_morse_decoder]
+Configures=morse_decoder_tb.TB_ARCHITECTURE
+E=1*298835
+I=0*146674
+M=2|2|vef|1749537554044|../src/TestBench/morse_decoder_TB.vhd|0*146203*0x8cbd9e8b8a8bc5a5dfc8ae35320dcda2d6113662|0*146537*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/morse_decoder_TB.vhd|169
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e56a9e33bd06c044c5eef1af89f55a41323f9c80630f1f9c7b51b3b64f0e303e9d41c4dc1b57605b9dae5dbdd30c6b561d
+
+[~U]
+lcd_controller=11|0*158004|
+morse=11|0*39134|
+morse_decoder=11|0*118239|
+morse_decoder_tb=11|0*136914|
+morse_lcd_system=11|0*154060|
+morse_tb=11|0*4369|
+morse_to_lcd_top=11|0*113322|
+testbench_for_morse=TESTBENCH_FOR_morse 2||
+testbench_for_morse_decoder=TESTBENCH_FOR_morse_decoder 2||

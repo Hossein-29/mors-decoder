@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator L.33
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o E:\3s400\AZ_Project\test-all-majool//TEST-ALL-MAJOOL -x xcf02s -u 00000000 E:/3s400/AZ_Project/test-all-majool/sevensegtest.bit 
+
+PROM E:\3s400\AZ_Project\test-all-majool\TEST-ALL-MAJOOL.prm map: Wed May 18 00:30:05 2011
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          256K
+PROM start    0000:0000
+PROM end      0003:ffff
+PROM checksum 00c5f279
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0003:3da7     May 18 00:21:54 2011 E:/3s400/AZ_Project/test-all-majool/sevensegtest.bit

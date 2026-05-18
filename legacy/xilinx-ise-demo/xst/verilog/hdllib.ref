@@ -1,0 +1,15 @@
+MO Debounce NULL gamepad.v vlg7D/_debounce.bin 1322856296
+MO Ball_pos_x NULL pong.v vlg6F/_ball__pos__x.bin 1322856296
+MO Ball_pos_y NULL pong.v vlg70/_ball__pos__y.bin 1322856296
+MO Paddle NULL pong.v vlg7A/_paddle.bin 1322856296
+MO Pong NULL pong.v vlg74/_pong.bin 1322856296
+MO Gamepad NULL gamepad.v vlg3B/_gamepad.bin 1322856296
+MO Velocity_x NULL pong.v vlg36/_velocity__x.bin 1322856296
+MO Velocity_y NULL pong.v vlg37/_velocity__y.bin 1322856296
+MO div16 NULL lcd_rtl/DIV16.v vlg1A/div16.bin 1322856296
+MO Bounce_cond NULL pong.v vlg33/_bounce__cond.bin 1322856296
+MO tcgrom NULL TCGROM.V vlg3C/tcgrom.bin 1322856296
+MO Counter NULL pong.v vlg70/_counter.bin 1322856296
+MO vga_pong_top NULL vga_pong_top.v vlg77/vga__pong__top.bin 1322856296
+MO sync_gen50 NULL 50MHZ_VGA.V vlg73/sync__gen50.bin 1322856296
+MO DFF NULL pong.v vlg48/_d_f_f.bin 1322856296

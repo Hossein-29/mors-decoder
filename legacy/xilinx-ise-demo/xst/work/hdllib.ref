@@ -1,0 +1,10 @@
+EN dcm50m NULL E:/test-all-AVA-LCD/dcm50m.vhd sub00/vhpl08 1322856304
+EN lcd NULL E:/test-all-AVA-LCD/lcd_rtl/lcd.vhd sub00/vhpl02 1322856298
+EN char_ram NULL E:/test-all-AVA-LCD/char_ram.vhd sub00/vhpl00 1322856296
+AR lcd_top behavioral E:/test-all-AVA-LCD/lcd_top.vhf sub00/vhpl07 1322856303
+EN lcd_top NULL E:/test-all-AVA-LCD/lcd_top.vhf sub00/vhpl06 1322856302
+AR lcd behavioral E:/test-all-AVA-LCD/lcd_rtl/lcd.vhd sub00/vhpl03 1322856299
+AR char_ram fun E:/test-all-AVA-LCD/char_ram.vhd sub00/vhpl01 1322856297
+EN sevensegtest NULL E:/test-all-AVA-LCD/SevenSegTest.vhd sub00/vhpl04 1322856300
+AR dcm50m behavioral E:/test-all-AVA-LCD/dcm50m.vhd sub00/vhpl09 1322856305
+AR sevensegtest behavioral E:/test-all-AVA-LCD/SevenSegTest.vhd sub00/vhpl05 1322856301

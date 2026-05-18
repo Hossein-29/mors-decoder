@@ -1,0 +1,3 @@
+.\src\main.vhd
+.\src\TestBench\morse_TB.vhd
+.\src\TestBench\morse_decoder_TB.vhd

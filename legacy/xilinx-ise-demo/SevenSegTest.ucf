@@ -1,0 +1,43 @@
+
+# PlanAhead Generated physical constraints 
+NET "GCLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "GCLK" LOC = P184;
+
+NET "Buzzer" LOC = P13;
+
+NET "SEG_DATA[0]" LOC = P10;
+NET "SEG_DATA[1]" LOC = P7;
+NET "SEG_DATA[2]" LOC = P11;
+NET "SEG_DATA[3]" LOC = P5;
+NET "SEG_DATA[4]" LOC = P4;
+NET "SEG_DATA[5]" LOC = P12;
+NET "SEG_DATA[6]" LOC = P9;
+NET "SEG_DATA[7]" LOC = P3;
+
+NET "SEG_SEL[0]" LOC = P15;
+NET "SEG_SEL[1]" LOC = P20;
+NET "SEG_SEL[2]" LOC = P19;
+NET "SEG_SEL[3]" LOC = P18;
+NET "SEG_SEL[4]" LOC = P16;
+
+NET "LEDS[7]" LOC = P51;
+NET "LEDS[6]" LOC = P50;
+NET "LEDS[5]" LOC = P48;
+NET "LEDS[4]" LOC = P46;
+NET "LEDS[3]" LOC = P45;
+NET "LEDS[2]" LOC = P44;
+NET "LEDS[1]" LOC = P43;
+NET "LEDS[0]" LOC = P42;
+
+NET "data[0]" LOC = P35;
+NET "data[1]" LOC = P34;
+NET "data[2]" LOC = P33;
+NET "data[3]" LOC = P31;
+NET "data[4]" LOC = P29;
+NET "data[5]" LOC = P28;
+NET "data[6]" LOC = P27;
+NET "data[7]" LOC = P26;
+NET "lcd_e" LOC = P24;
+NET "lcd_rs" LOC = P21;
+NET "lcd_rw" LOC = P22;
+NET "rst_n" LOC = P72;

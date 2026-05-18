@@ -1,0 +1,45 @@
+timestamp=1748825142130
+
+[~A]
+ModifyID=66
+Version=74
+
+[~MFT]
+0=8|0project.mgf|113072|105200
+1=2|1project.mgf|232990|229283
+3=2|3project.mgf|53245|51795
+
+[morse]
+A/behavioral=A/Behavioral 21|../src/main.vhd|23|1*232990
+BinW64/behavioral=3*53245
+I=0*39879
+I/behavioral=I/Behavioral 0*113072
+M=11|2|vef|1748731968728|../src/main.vhd|0*39380*0xdcd595897ee431f5bd9d28a56d6883888e1ba910|0*39805*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1748825142104|../src/main.vhd|0*110251*0x9bc3bfeeb5b105a7a6e803c32d852191a2047c0f|0*112984*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|9556e9626c606d4fb7b1ae1b7c40ecb78e7463d3a6e45ebb6bc00d75bd02a262
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4c560ef1367175f869c885406b3dbdc8b
+
+[morse_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/morse_TB.vhd|10|1*229283
+BinW64/tb_architecture=3*51795
+I=0*4834
+I/tb_architecture=I/TB_ARCHITECTURE 0*109384
+M=11|2|vef|1748728848324|../src/TestBench/morse_TB.vhd|0*4491*0xabf62535a9f8211ee21b2f389830c83940175974|0*4743*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1748742717784|../src/TestBench/morse_TB.vhd|0*106925*0xe464a2a40c72ea1bd239857ee47b0dd20af567ca|0*109274*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/morse_TB.vhd|9
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|e34aa8e54bf2e54c5e2c30556d2dff3bff4b26329801fe0590e5a751b0c393b16ef76e99fd74b3e6afeb5824bd666c80
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea530aded37758a77584677cdae6ae9221
+
+[testbench_for_morse]
+Configures=morse_tb.TB_ARCHITECTURE
+E=1*232524
+I=0*110091
+M=2|2|vef|1748742717788|../src/TestBench/morse_TB.vhd|0*109708*0x8ba6c6c244e7cf891eb5e3e72b6e9b55b0c49391|0*109978*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/morse_TB.vhd|156
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e51151dc56e92a82beac0957fa8991667d5201ce96d9fcf35534d0ffaa734b5d6c
+
+[~U]
+morse=11|0*39134|
+morse_tb=11|0*4369|
+testbench_for_morse=TESTBENCH_FOR_morse 2||

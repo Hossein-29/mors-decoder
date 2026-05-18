@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator M.53d
+# Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION M.53d
+DATE            03/18/2011 - 03:12
+SOURCE          D:\Electronic Engin\project2010\RandD\FPGA VHDL\FPGA Board\SevenSegTest\SevenSeg.mcs
+DEVICE          XCF02S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x00C27406
+START_ADDRESS   0x00000000 END_ADDRESS 0x00033DA7 DIRECTION_UP   "D:/Electronic Engin/project2010/RandD/FPGA VHDL/FPGA Board/SevenSegTest/sevensegtest.bit" 3s400pq208

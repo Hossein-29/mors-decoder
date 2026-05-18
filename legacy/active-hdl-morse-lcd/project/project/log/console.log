@@ -1,0 +1,244 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work project -2002  $dsn/src/main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/main.vhd
+# Compile Entity "morse_decoder"
+# Compile Architecture "Behavioral" of Entity "morse_decoder"
+# Compile Entity "lcd_controller"
+# Compile Architecture "Behavioral" of Entity "lcd_controller"
+# Compile Entity "morse_to_lcd_top"
+# Compile Architecture "Behavioral" of Entity "morse_to_lcd_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/TestBench/morse_decoder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/TestBench/morse_decoder_TB.vhd
+# Compile Entity "morse_decoder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "morse_decoder_tb"
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (58, 13): Unknown identifier "input".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (58, 13): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (60, 13): Unknown identifier "input".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (60, 13): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (65, 26): Unknown identifier "DOT_TIME".
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (66, 22): Unknown identifier "DOT_TIME".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (66, 22): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/morse_decoder_TB.vhd : (66, 22): Time expression expected.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (71, 26): Unknown identifier "DASH_TIME".
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (72, 22): Unknown identifier "DOT_TIME".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (72, 22): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/morse_decoder_TB.vhd : (72, 22): Time expression expected.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (84, 13): Unknown identifier "expected_output".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (84, 13): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (85, 22): Unknown identifier "IDLE_TIME".
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (85, 34): Unknown identifier "DOT_TIME".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (85, 34): Cannot find object declaration.
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (85, 22): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/morse_decoder_TB.vhd : (85, 22): Time expression expected.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (89, 9): Unknown identifier "input".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (89, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (93, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (93, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (98, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (98, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (103, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (103, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (108, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (108, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (113, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (113, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (115, 9): Unknown identifier "expected_output".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (115, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (119, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (119, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (121, 9): Unknown identifier "expected_output".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (121, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (122, 18): Unknown identifier "IDLE_TIME".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (122, 18): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/morse_decoder_TB.vhd : (122, 18): Time expression expected.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (126, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (126, 9): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/morse_decoder_TB.vhd : (133, 9): Unknown identifier "test_case_num".
+# Error: COMP96_0133: TestBench/morse_decoder_TB.vhd : (133, 9): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_morse_decoder"
+# Error: COMP96_0209: TestBench/morse_decoder_TB.vhd : (140, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 45 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/OneDrive/Documents/University/403-02/CAlab/project/local/project/project/src/untitled.asdb'.
+acom -O3 -e 100 -work project -2002  $dsn/src/TestBench/morse_decoder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/TestBench/morse_decoder_TB.vhd
+# Compile Entity "morse_decoder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "morse_decoder_tb"
+# Compile Configuration "TESTBENCH_FOR_morse_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/TestBench/morse_decoder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/TestBench/morse_decoder_TB.vhd
+# Compile Entity "morse_decoder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "morse_decoder_tb"
+# Compile Configuration "TESTBENCH_FOR_morse_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+runscript -do "C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/TestBench/morse_decoder_TB_runtest.do"
+SetActiveLib -work
+comp -include "$dsn\src\main.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/main.vhd
+# Compile Entity "morse_decoder"
+# Compile Architecture "Behavioral" of Entity "morse_decoder"
+# Compile Entity "lcd_controller"
+# Compile Architecture "Behavioral" of Entity "lcd_controller"
+# Compile Entity "morse_to_lcd_top"
+# Compile Architecture "Behavioral" of Entity "morse_to_lcd_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\TestBench\morse_decoder_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/TestBench/morse_decoder_TB.vhd
+# Compile Entity "morse_decoder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "morse_decoder_tb"
+# Compile Configuration "TESTBENCH_FOR_morse_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim +access +r TESTBENCH_FOR_morse_decoder 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\OneDrive\Documents\University\403-02\CA lab\project\local - LCD\project\project\src\wave.asdb
+#  9:54 AM, Tuesday, June 10, 2025
+#  Simulation has been initialized
+wave 
+wave -noreg clk
+wave -noreg reset
+wave -noreg btn_in
+wave -noreg decoded_index
+wave -noreg new_char_ready
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\morse_decoder_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_morse_decoder 
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/wave.asdb'.
+run 10 sec
+# EXECUTION:: NOTE   : Sending character: .-
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character .-. Expected index 0 but got 4
+# EXECUTION:: Time: 1200000270 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: -...
+# EXECUTION:: Time: 1200000290 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character -.... Expected index 1 but got 4
+# EXECUTION:: Time: 2800000350 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: ...
+# EXECUTION:: Time: 2800000370 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character .... Expected index 18 but got 36
+# EXECUTION:: Time: 4800000430 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: ...--
+# EXECUTION:: Time: 4800000450 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character ...--. Expected index 29 but got 8
+# EXECUTION:: Time: 6800000510 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: ...
+# EXECUTION:: Time: 6800000530 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character .... Expected index 18 but got 36
+# EXECUTION:: Time: 8800000590 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: ---
+# EXECUTION:: Time: 8800000610 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# KERNEL: stopped at time: 10 sec
+acom -O3 -e 100 -work project -2002  $dsn/src/TestBench/morse_decoder_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/TestBench/morse_decoder_TB.vhd
+# Compile Entity "morse_decoder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "morse_decoder_tb"
+# Compile Configuration "TESTBENCH_FOR_morse_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5451 kB (elbread=427 elab2=4884 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\OneDrive\Documents\University\403-02\CA lab\project\local - LCD\project\project\src\wave.asdb
+#  10:09 AM, Tuesday, June 10, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/wave.asdb'.
+run 10 sec
+# EXECUTION:: NOTE   : Sending character: .-
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character .-. Expected index 0 but got 4
+# EXECUTION:: Time: 1200000270 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: -...
+# EXECUTION:: Time: 2200000290 ns,  Iteration: 0,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character -.... Expected index 1 but got 4
+# EXECUTION:: Time: 3800000350 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: ...
+# EXECUTION:: Time: 4800000370 ns,  Iteration: 0,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character .... Expected index 18 but got 36
+# EXECUTION:: Time: 6800000430 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: NOTE   : Sending character: ...--
+# EXECUTION:: Time: 7800000450 ns,  Iteration: 0,  Instance: /morse_decoder_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : TEST FAILED for character ...--. Expected index 29 but got 8
+# EXECUTION:: Time: 9800000510 ns,  Iteration: 2,  Instance: /morse_decoder_tb,  Process: stimulus.
+# KERNEL: stopped at time: 10 sec
+acom -O3 -e 100 -work project -2002  $dsn/src/main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/main.vhd
+# Compile Entity "morse_lcd_system"
+# Compile Architecture "Behavioral" of Entity "morse_lcd_system"
+# Error: COMP96_0419: main.vhd : (73, 25): Ambiguous reference to "unsigned". Visible declarations include 'ieee.std_logic_arith.unsigned' and 'ieee.NUMERIC_STD.unsigned'.
+# Error: COMP96_0272: main.vhd : (73, 25): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0104: main.vhd : (73, 25): Undefined type of expression.
+# Error: COMP96_0419: main.vhd : (75, 69): Ambiguous reference to "unsigned". Visible declarations include 'ieee.std_logic_arith.unsigned' and 'ieee.NUMERIC_STD.unsigned'.
+# Error: COMP96_0272: main.vhd : (75, 69): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0104: main.vhd : (75, 69): Undefined type of expression.
+# Error: COMP96_0419: main.vhd : (77, 69): Ambiguous reference to "unsigned". Visible declarations include 'ieee.std_logic_arith.unsigned' and 'ieee.NUMERIC_STD.unsigned'.
+# Error: COMP96_0272: main.vhd : (77, 69): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0104: main.vhd : (77, 69): Undefined type of expression.
+# Compile Entity "lcd_controller"
+# Compile Architecture "Behavioral" of Entity "lcd_controller"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/main.vhd
+# Compile Entity "morse_lcd_system"
+# Compile Architecture "Behavioral" of Entity "morse_lcd_system"
+# Compile Entity "lcd_controller"
+# Compile Architecture "Behavioral" of Entity "lcd_controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work project -2002  $dsn/src/main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/user/OneDrive/Documents/University/403-02/CA lab/project/local - LCD/project/project/src/main.vhd
+# Compile Entity "morse"
+# Compile Architecture "Behavioral" of Entity "morse"
+# Compile Entity "morse_lcd_system"
+# Compile Architecture "Behavioral" of Entity "morse_lcd_system"
+# Compile Entity "lcd_controller"
+# Compile Architecture "Behavioral" of Entity "lcd_controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/OneDrive/Documents/University/403-02/CAlab/project/local/project/project/src/untitled.asdb'.
+# Waveform file 'C:/Users/user/OneDrive/Documents/University/403-02/CAlab/project/local/project/project/src/untitled.awc' connected to 'C:/Users/user/OneDrive/Documents/University/403-02/CAlab/project/local/project/project/src/untitled.asdb'.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Warning: Cannot set breakpoint. No executable statement found or debugging data is unavailable. Compile source files with the -dbg argument of the acom/alog command or check the Enable Debug option in the Compilation | VHDL/Verilog category of the Design Settings dialog box.
+# Waveform file 'C:/Users/user/OneDrive/Documents/University/403-02/CAlab/project/local/project/project/src/untitled.awc' connected to 'C:/Users/user/OneDrive/Documents/University/403-02/CAlab/project/local/project/project/src/untitled.asdb'.

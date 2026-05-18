@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v11.1
+# Build 44534 by hdbuild on Thu Mar  5 11:02:58 PST 2009
+# Start of session at: 7/13/11 2:35:12 AM
+# Process ID: 2204
+#-----------------------------------------------------------
+source {E:/3s400/AZ_Project/test-all-AVA/pa.fromNetlist.tcl}
+# hdi::project new -name SevenSegTest -dir E:/3s400/AZ_Project/test-all-AVA/patmp -netlist lcd_top.ngc -search_path  {E:/3s400/AZ_Project/test-all-AVA} 
+# hdi::project setArch -name SevenSegTest -arch spartan3
+# hdi::param set -name project.pinAheadLayout -bvalue yes
+# hdi::param set -name project.paUcfFile -svalue SevenSegTest.ucf
+# hdi::floorplan new -name floorplan_1 -part xc3s400pq208-4 -project SevenSegTest
+# hdi::pconst import -project SevenSegTest -floorplan floorplan_1 -file SevenSegTest.ucf
+#-----------------------------------------------------------
+# End of session at: 7/13/11 2:37:39 AM
+# Process ID: 2204
+#-----------------------------------------------------------

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator L.33
+# Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION L.33
+DATE            12/02/2011 - 23:36
+SOURCE          E:\test-all-AVA-LCD\VGA_LCD.mcs
+DEVICE          XCF02S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x00D1FDCA
+START_ADDRESS   0x00000000 END_ADDRESS 0x00033DA7 DIRECTION_UP   "E:/test-all-AVA-LCD/lcd_top.bit" 3s400pq208

@@ -1,0 +1,39 @@
+INFO: [HD-Application 1] Opened log file E:\3s400\AZ_Project\test-all-AVA\planAhead.log
+INFO: [HD-Application 2] Opened journal file E:\3s400\AZ_Project\test-all-AVA\planAhead.jou
+#-----------------------------------------------------------
+# PlanAhead v11.1
+# Build 44534 by hdbuild on Thu Mar  5 11:02:58 PST 2009
+# Start of session at: 7/13/11 2:35:12 AM
+# Process ID: 2204
+#-----------------------------------------------------------
+INFO: [HD-RTPRIM 0] Parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\verilog.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\verilog.xml'
+INFO: [HD-RTPRIM 0] Parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\vhdl.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\vhdl.xml'
+INFO: [HD-RTPRIM 0] Parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\ucf.xml'
+INFO: [HD-RTPRIM 1] Finished parsing template file 'C:\Xilinx\11.1\ISE\data\projnav\templates\ucf.xml'
+Command> source {E:/3s400/AZ_Project/test-all-AVA/pa.fromNetlist.tcl}
+# hdi::project new -name SevenSegTest -dir E:/3s400/AZ_Project/test-all-AVA/patmp -netlist lcd_top.ngc -search_path  {E:/3s400/AZ_Project/test-all-AVA} 
+INFO: [HD-EDIFIN 0] Parsing Edif File '.\.HDI-PlanAhead-2204-DSPCore-ir\ngc2edif\lcd_top.edif'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '.\.HDI-PlanAhead-2204-DSPCore-ir\ngc2edif\lcd_top.edif'
+WARN: [HD-NETLIST 3] Netlist is not ideal for floorplanning, since the cellview 'lcd_top' defined in file 'lcd_top.ngc' contains large number of primitives.
+# hdi::project setArch -name SevenSegTest -arch spartan3
+# hdi::param set -name project.pinAheadLayout -bvalue yes
+# hdi::param set -name project.paUcfFile -svalue SevenSegTest.ucf
+# hdi::floorplan new -name floorplan_1 -part xc3s400pq208-4 -project SevenSegTest
+INFO: [HD-ArchReader 14] Reading macro library C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\hd_int_macros.edn'
+INFO: [HD-ArchReader 7] Loading clock regions from C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\3s400\ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\3s400\ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\3s400\pq208\Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\3s400\pq208\SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:\Xilinx\11.1\PlanAhead\parts\xilinx\spartan3\drc.xml
+# hdi::pconst import -project SevenSegTest -floorplan floorplan_1 -file SevenSegTest.ucf
+INFO: [HD-UCFReader 0] Parsing UCF File : SevenSegTest.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : SevenSegTest.ucf
+#-----------------------------------------------------------
+# End of session at: 7/13/11 2:37:39 AM
+# Process ID: 2204
+#-----------------------------------------------------------

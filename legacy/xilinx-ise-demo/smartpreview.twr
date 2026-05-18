@@ -1,0 +1,38 @@
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net GCL | SETUP       |         N/A|     6.836ns|     N/A|           0
+  K_IBUFG                                   | HOLD        |     0.910ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net VGA | SETUP       |         N/A|     8.140ns|     N/A|         214
+  _GAME/clock                               | HOLD        |     0.953ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net SEG | SETUP       |         N/A|     4.162ns|     N/A|           0
+  _TEST/clk_2                               | HOLD        |     0.263ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LCD | SETUP       |         N/A|     4.545ns|     N/A|         158
+  _TEST/clk_int                             | HOLD        |     0.889ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+* Autotimespec constraint for clock net SEG | SETUP       |         N/A|     7.268ns|     N/A|           0
+  _TEST/CLK10MS                             | HOLD        |    -0.527ns|            |       6|        1457
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net DIV | SETUP       |         N/A|     5.767ns|     N/A|         189
+  IDER/count<3>                             | HOLD        |     1.598ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LCD | SETUP       |         N/A|     1.712ns|     N/A|           1
+  _TEST/tc_clkcnt                           | HOLD        |     0.924ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LCD | SETUP       |         N/A|     1.671ns|     N/A|           1
+  _TEST/clkdiv                              | HOLD        |     0.878ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+6 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
