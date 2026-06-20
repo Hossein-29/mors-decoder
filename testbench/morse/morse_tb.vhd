@@ -100,6 +100,13 @@ begin
             end loop;
             expected_output <= expected;
             wait for IDLE_TIME - DOT_TIME;
+            wait for clk_period;
+
+            assert output = expected
+                report "TEST FAILED for pattern " & pattern &
+                       ". Expected index " & integer'image(to_integer(unsigned(expected))) &
+                       " but got " & integer'image(to_integer(unsigned(output)))
+                severity error;
         end procedure;
     begin
         -- Initialize
@@ -118,7 +125,7 @@ begin
 
         -- Test case 3: S (...)
         test_case_num <= 3;
-        send_char("...", "00010010");	-- 12
+        send_char("...", "00010010");	-- 18
         wait for 100 ns;
 
         -- Test case 4: 3 (...--)
@@ -128,16 +135,25 @@ begin
 
         -- Test case 5: Invalid short press
         test_case_num <= 5;
+        expected_output <= output;
         press_button(100 ns);
-        expected_output <= "11111111";	-- FF
-        wait for 100 ns;
+        wait for IDLE_TIME;
+        wait for clk_period;
 
-        -- Test case 6: Partial character timeout
+        assert output = expected_output
+            report "TEST FAILED for invalid short press. Output changed even though the press should be ignored."
+            severity error;
+
+        -- Test case 6: Single-dot character timeout: "." decodes as E (index 4)
         test_case_num <= 6;
         send_dot;
-        expected_output <= "11111111";	-- FF
+        expected_output <= "00000100";	-- 4
         wait for IDLE_TIME * 2;
         wait for 100 ns;
+
+        assert output = "00000100"
+            report "TEST FAILED for single-dot timeout. Expected E (index 4)."
+            severity error;
 
         -- Test case 7: SOS sequence
         test_case_num <= 7;

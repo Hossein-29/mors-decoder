@@ -30,7 +30,7 @@ architecture Behavioral of morse is
     signal state : state_type := IDLE;
 
     signal char_index       : integer range 0 to 7 := 7; 
-	signal last_index       : integer range 0 to 7 := 7;
+    signal symbol_count     : integer range 0 to 8 := 0;
 
     signal char_pattern     : std_logic_vector(7 downto 0) := (others => '0');
     signal decoded_char     : std_logic_vector(7 downto 0) := "00000000";
@@ -97,7 +97,7 @@ begin
             end if;
 				
 				
-			if state /= IDLE or char_index = 7 then
+			if state /= IDLE or symbol_count = 0 then
                	done_counter <= 0;
 			end if;
             
@@ -105,63 +105,96 @@ begin
 	 end process;
 	 
 	 
-	 process(clk) 
-	 	variable complement_element : std_logic_vector(7 downto 0) := (others => '-');
+	 process(clk)
+	 	variable decoded_value : std_logic_vector(7 downto 0);
+	 	variable lookup_pattern : std_logic_vector(7 downto 0);
+	 	variable received_symbol : std_logic;
+	 	variable valid_symbol : boolean;
 	 begin
         if rising_edge(clk) then
             case state is
                 when IDLE =>
+                    outleddot <= '0';
+                    outleddas <= '0';
+
                     if input = '0' then -- button pressed
                         state <= PRESSED;
                         counter <= 0;
 								
-                    elsif timer_done = '1' and char_index /= 7 then
+                    elsif timer_done = '1' and symbol_count /= 0 then
                         state <= PROCESSING;
                     end if;
 
                 when PRESSED =>
+                    outleddot <= '0';
+                    outleddas <= '0';
                     counter <= counter + 1;
                     if input = '1' then -- button released
                         state <= RELEASED;
                     end if;
 
                 when RELEASED =>
+                    valid_symbol := false;
+
                     if counter >= DASH_TIME then
-                        char_pattern(char_index) <= '1';
+                        received_symbol := '1';
+                        valid_symbol := true;
                         outleddas <= '1';
                         outleddot <= '0';
-                        char_index <= char_index - 1;
 								
                     elsif counter >= DOT_TIME then
-                        char_pattern(char_index) <= '0';
+                        received_symbol := '0';
+                        valid_symbol := true;
                         outleddot <= '1';
                         outleddas <= '0';
-                        char_index <= char_index - 1;
 								
                     else
                         -- ignored (too short)
+                        outleddot <= '0';
+                        outleddas <= '0';
                         state <= IDLE;
-                    end if;
-                    
-                    if char_index = 0 then
-                        state <= PROCESSING;
-                    else
-                        state <= IDLE;
-                        counter <= 0;
                     end if;
 
+                    if valid_symbol then
+                        char_pattern(char_index) <= received_symbol;
+
+                        if symbol_count = 7 then
+                            symbol_count <= 8;
+                            state <= PROCESSING;
+                        else
+                            symbol_count <= symbol_count + 1;
+                            char_index <= char_index - 1;
+                            state <= IDLE;
+                        end if;
+                    end if;
+
+                    counter <= 0;
+
                 when PROCESSING =>
-                    decoded_char <= "11111111";
+                    outleddot <= '0';
+                    outleddas <= '0';
+                    decoded_value := "11111111";
+                    lookup_pattern := (others => '-');
+
+                    for bit_index in 0 to 7 loop
+                        if bit_index >= 8 - symbol_count then
+                            lookup_pattern(bit_index) := char_pattern(bit_index);
+                        end if;
+                    end loop;
+
                     -- Match pattern
                     for i in 0 to 35 loop
-                        if char_pattern(7 downto char_index + 1) & complement_element(char_index downto 0) = morse_lut(i) then
-                            decoded_char <= std_logic_vector(to_unsigned(i, 8)); -- + to_unsigned(65,8)
+                        if lookup_pattern = morse_lut(i) then
+                            decoded_value := std_logic_vector(to_unsigned(i, 8));
                             exit;
                         end if;
                     end loop;
-					output <= decoded_char;
+
+                    decoded_char <= decoded_value;
+                    output <= decoded_value;
 
                     char_index <= 7;
+                    symbol_count <= 0;
                     char_pattern <= (others => '0');
                     state <= IDLE;
                     
