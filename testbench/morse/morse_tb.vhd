@@ -22,7 +22,7 @@ architecture TB_ARCHITECTURE of morse_tb is
     );
     end component;
 
-    signal clk : STD_LOGIC;
+    signal clk : STD_LOGIC := '0';
     signal input : STD_LOGIC;
     signal outleddot : STD_LOGIC;
     signal outleddas : STD_LOGIC;
@@ -62,10 +62,12 @@ begin
     -- Clock generation
     clock_process: process
     begin
-        clk <= '0';
-        wait for clk_period/2;
-        clk <= '1';
-        wait for clk_period/2;
+        loop
+            clk <= '0';
+            wait for clk_period/2;
+            clk <= '1';
+            wait for clk_period/2;
+        end loop;
     end process;
 
     -- Stimulus process

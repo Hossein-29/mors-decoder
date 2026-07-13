@@ -202,7 +202,7 @@ begin
         end if;
     end process;
 	 
-	 process (clk)
+	 process (state)
 	 begin
 		if    state = IDLE then
 			state_iden1 <= '0';
