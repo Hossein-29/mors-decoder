@@ -1,0 +1,21 @@
+v 4
+file . "testbench/morse/morse_tb.vhd" "2a67ab9b02a41be03dce643c87885551ad2b771b" "20260714014341.192":
+  entity morse_tb at 1( 0) + 0 on 22;
+  architecture tb_architecture of morse_tb at 10( 155) + 0 on 23;
+  configuration testbench_for_morse at 174( 4885) + 0 on 24;
+file . "testbench/morse_lcd/morse_decoder_tb.vhd" "0e46587133275c145aaf00fc0390d818160079ab" "20260714012716.293":
+  entity morse_decoder_tb at 1( 0) + 0 on 17;
+  architecture tb_architecture of morse_decoder_tb at 10( 164) + 0 on 18;
+  configuration testbench_for_morse_decoder at 169( 4737) + 0 on 19;
+file . "src/lcd_controller.vhd" "94d16601998d8a72c4957779c24fc739e3d300c5" "20260714012716.068":
+  entity lcd_controller at 1( 0) + 0 on 13;
+  architecture behavioral of lcd_controller at 23( 982) + 0 on 14;
+file . "src/morse_decoder.vhd" "2b761d2576f2ec6badec5d0add3aacd991cd1156" "20260714012715.933":
+  entity morse_decoder at 1( 0) + 0 on 11;
+  architecture behavioral of morse_decoder at 24( 1016) + 0 on 12;
+file . "src/morse_top.vhd" "8bfe52c3389eae16ce740f0644be80180d99c743" "20260714012716.207":
+  entity morse_top at 1( 0) + 0 on 15;
+  architecture structural of morse_top at 28( 1061) + 0 on 16;
+file . "src/morse/morse.vhd" "9b961832f9963381195df744deb4acfe920c7288" "20260714014340.949":
+  entity morse at 1( 0) + 0 on 20;
+  architecture behavioral of morse at 23( 685) + 0 on 21;

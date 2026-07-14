@@ -118,27 +118,27 @@ begin
 
 		-- Test case 1: A (.-) -> index 0
 		send_char(".-", 0);	
-		wait for 1sec;
+		wait for 1 sec;
 
 		-- Test case 2: B (-...) -> index 1
 		send_char("-...", 1);
-		wait for 1sec;
+		wait for 1 sec;
 		
 		-- Test case 3: S (...) -> index 18
 		send_char("...", 18);
-		wait for 1sec;
+		wait for 1 sec;
 
 		-- Test case 4: 3 (...--) -> index 29
 		send_char("...--", 29);
-		wait for 1sec;
+		wait for 1 sec;
 		
 		-- Test case 5: SOS sequence
 		send_char("...", 18); -- S -> index 18
-		wait for 1sec;
+		wait for 1 sec;
 		send_char("---", 14); -- O -> index 14 
-		wait for 1sec;
+		wait for 1 sec;
 		send_char("...", 18); -- S -> index 18	
-		wait for 1sec;
+		wait for 1 sec;
 
 		-- Test case 6: Partial character timeout (a single dot should be decoded as 'E')
 		report "Testing partial timeout (E)";
