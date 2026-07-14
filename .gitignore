@@ -1,3 +1,23 @@
 .DS_Store
 **/.DS_Store
 
+# OS generated files
+Thumbs.db
+
+# GHDL compilation and object files
+*.o
+*.cf
+work/
+
+# Waveform and simulation outputs (Very heavy!)
+*.ghw
+*.vcd
+*.wdb
+
+# Active-HDL / ModelSim / Vivado temporary files
+*.epr
+*.syr
+*.xml
+*.log
+*.jou
+*.asdb
